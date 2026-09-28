@@ -1,0 +1,8 @@
+[project]
+name = "research-ops"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "科研数据协作平台"
+
+[project.scripts]
+research-ops = "research_ops.cli:main"
